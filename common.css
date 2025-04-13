@@ -1,0 +1,22 @@
+#links{
+    display: flex;
+    justify-content: space-around;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    color: teal;
+}
+table,td,th{
+    border: 1px solid black;
+}
+table{
+    width:70%;
+    margin: auto;
+    margin-top: 50px;
+   
+}
+td,th{
+    padding: 15px;
+}
+tr>th{
+    background-color: teal;
+    color: white;
+}

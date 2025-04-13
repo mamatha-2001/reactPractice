@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html>
+<script>
+ /*function Details(name,age){
+    this.name=name;
+    this.age=age;
+
+ }
+ let student1=new Details("mamatha",23);
+ console.log(student1);
+ student1.phoneumber=123456;
+ console.log(student1);*/
+ let student1={
+    name:"gohan",
+    age:23,
+    batch:"web",
+ }
+ let student2={
+    name:"goku",
+    age:25,
+    batch:"web"
+ }
+ function newProperties(c,s){
+    this.city=c;
+    this.state=s;
+ }
+ //newProperties.call(student1,"hyderabad","telangana");
+ //console.log(student1);
+ newProperties.apply(student2,["patna","bihar"]);
+ console.log(student2);
+ let result=newProperties.bind(student1,"mumbai","maharashtra");
+result();
+console.log(student1);
+
+</script>

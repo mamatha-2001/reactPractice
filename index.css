@@ -1,0 +1,22 @@
+#links{
+    display: flex;
+    justify-content: space-around;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    color: teal;
+}
+form{
+   width:400px;
+   box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+   margin:3% auto;
+   padding: 3%;
+   background:white;
+}
+input,select{
+    display: block;
+    margin: 15px 0px;
+    font-size: 20px;
+    padding: 10px;
+}
+option{
+    font-size: 20px;
+}
